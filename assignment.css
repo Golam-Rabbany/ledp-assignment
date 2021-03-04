@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar .myHeader{
+    margin-left: 80px;
+}
+.navbar a{
+    margin-left: 10px;
+}
+.navbar form{
+    background: #ffff18;
+    margin-right: 150px;
+    margin: 10 auto;
+    padding: 5px 10px
+}
+.navbar a{
+    margin: 0 auto;
+    color: #2f2f2f
+}
+
+
+.secondSec{
+    background-image: url(img/background-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+}
+.secondSec h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.secondSec p{
+    text-align: center;
+    color: #efefef;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+.thirdSec{
+    margin: 0 auto;
+    width: 56%;
+    margin-top: 40px;
+}
+
+.thirdSec i{
+    font-size: 40px;
+	height: 90px;
+	width: 90px;
+	border: 3px solid rgb(253, 221, 37);
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.thirdSec p{
+	margin-top: 5px;
+}
+
+
+/*------Our Team-----*/
+#team{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgb(233, 233, 233)
+}
+#team h1{
+	text-align: center;
+	color: rgb(33 37 41) !important;
+	padding-bottom: 10px;
+	padding-top: 20px; 
+	margin-bottom: 25px;
+}
+
+.img-responsive{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%
+}
+.profile-pic .img-box img{
+	filter: grayscale(1);
+}
+.profile-pic .img-box img:hover{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}
+.profile-pic h3{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+#team p{
+	text-align: inherit;
+
+}
+#team .fa{
+	height: 25px;
+	width: 25px;
+	color: #007bff !important;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+#team button{
+    margin: 0 auto;
+    width: 300px;
+    background: red;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+/* ready solution */
+#price{
+	padding: 40px 0;
+	background: #efefef;
+}
+#price h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.single-price{
+	margin: 10px auto;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	transition: 0.5s;
+}
+.single-price:hover{
+	box-shadow: 0 2px 20px #333;
+}
+.price-head{
+	background: rgb(253, 221, 37);
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+    height: 100px;
+}
+.price-head h2{
+	color: #767676;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.price-content{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+}
+.price-content ul li{
+	border-bottom: 1px solid #efefef;
+	padding: 15px 10px;
+	list-style: none;
+}
+ul li:last-child{
+	border: none;
+}
+.fa-check{
+	color: gray;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.fa-check-circle{
+	color: green;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.price-p{
+	display: inline;
+	float: left;
+	padding: 15px 15px 30px;
+	text-align: center;
+	width: 100%;
+    background: rgb(253, 221, 37);
+}
+/* .buy-btn{
+	background-color: #2196f3;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px 50px;
+	transition: 0.5s;
+} */
+/* .buy-btn:hover{
+	border-color: 1px solid #fff;
+	background-color: #3f51b5;
+} */
+/* .price-button p{
+	text-decoration: none!important;
+	color: #2a2625!important;
+} */
+.priceMy{
+	display: inline-flex;
+	height: 150px;
+}
+.priceMy h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 120px;
+}
+
+
+.sixthSec{
+	background: #e7eef0;
+}
+#sixthId{
+	margin-top: 100px;
+}
+.sixthSec .col-5 img{
+	height: 400px;
+}
+#sixId{
+    background-image: url(img/pink-hair-1450045_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+
+
+#lastSection{
+	margin-top: 30px;
+	background: rgb(253, 221, 37);;
+}
+#lastSection .col-md-3{
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+#lastSection .col-md-3 ul li{
+	display: inline-flex;
+	padding: 3px 0;
+	color: #000000;
+}
+#lastSection .col-md-3 ul a{
+	text-decoration: none;
+	display: block;
+}
+#lastSection .col-md-3 ul a li:hover{
+	color: #555;
+}
+#lastSection .col-md-3 ul li:after{
+	content: '';
+	display: block;
+	margin: 20px auto 10px;
+	height: 5px;
+}
+#lastFoo i{
+	margin: 0 10px;
+	font-size: 29px;
+}
